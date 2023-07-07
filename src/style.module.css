@@ -1,0 +1,57 @@
+.digit{
+    cursor:pointer;
+    display: flex;
+    font-size: 30px;
+height:60px;
+width: 60px;
+background-color: grey;
+border-radius: 100%;
+margin: 3px;
+justify-content: center;
+align-items: center;
+}
+.digit:active{ 
+    background-color: #2F4F4F;
+}
+
+.eq{
+    cursor:pointer;
+    display: flex;
+    font-size: 30px;
+height:60px;
+width: 125px;
+background-color: orange;
+border-radius: 30px;
+margin: 3px;
+justify-content: center;
+align-items: center;
+}
+.eq:active{
+    background-color: #FF7F50;
+}
+.Input{
+    width: 240px;
+    border-radius: 10px;
+    height: 25px;
+    margin: 5px;
+}
+.line{
+    
+    display: flex;
+justify-content: center;
+}
+.erase{
+    cursor:pointer;
+    display: flex;
+    font-size: 30px;
+height:60px;
+width: 60px;
+background-color: orange;
+border-radius: 100%;
+margin: 3px;
+justify-content: center;
+align-items: center; 
+}
+.erase:active{
+    background-color: #FF7F50;
+}
